@@ -29,10 +29,6 @@ const middleware = webpackDevMiddleware(compiler, {
 app.use(middleware);
 app.use(webpackHotMiddleware(compiler));
 
-// app.get('*', function (req, res) {
-//     res.sendFile(__dirname + '/src/index.html');
-// });
-
 app.listen(port, (error) => {
     if (error) {
         console.error(err);
