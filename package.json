@@ -18,7 +18,7 @@
       }
     },
     "start-dev": {
-      "command": "babel-node webpack/webpack-dev-server.bable.js",
+      "command": "babel-node webpack/webpack-dev-server.js",
       "env": {
         "NODE_ENV": "development",
         "PORT": 6464
