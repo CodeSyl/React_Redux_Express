@@ -1,0 +1,14 @@
+    .home_container {
+        .row {
+            .col {
+                text-align: center;
+            }
+        }
+        ul,
+        li {
+            margin: 10px;
+            padding: 0;
+            // display: inline;
+            list-style-type: none;
+        }
+    }
