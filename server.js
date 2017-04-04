@@ -8,7 +8,7 @@ console.log(process.env.NODE_ENV);
 
 const app = express();
 const server = http.Server(app);
-const port = (process.env.PORT || 6464);
+const port = (process.env.PORT || 8080);
 
 app.use(compression());
 

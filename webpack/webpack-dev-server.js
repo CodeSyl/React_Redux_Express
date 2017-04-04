@@ -11,7 +11,7 @@ app.use(compression());
 console.log(process.env.PORT);
 console.log(process.env.NODE_ENV);
 
-const port = (process.env.PORT || 6464);
+const port = (process.env.PORT || 8080);
 const compiler = webpack(config);
 const middleware = webpackDevMiddleware(compiler, {
     publicPath: config.output.publicPath,
